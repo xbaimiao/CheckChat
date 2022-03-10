@@ -1,0 +1,22 @@
+checks:
+  # 666 代表监测的消息
+  # tell 给玩家发生一条消息
+  # command 控制台执行
+  # delay 延时单位秒
+  666:
+    # 时间秒
+    time: 30
+    message: "输入666领取大礼包"
+    commands:
+      - 'tell: 你输入了666命令'
+      - 'tell: 奖励你一个钻石'
+      - 'command: give %player_name% diamond'
+      - 'delay: 2'
+      - 'command: kill %player_name%'
+      - 'tell: 在奖励你一个自杀'
+  '欢迎':
+    time: 30
+    message: "输入欢迎领取女朋友"
+    commands:
+      - 'tell: 你输入了欢迎 获得1金币'
+      - 'command: money give %player_name% 1'
