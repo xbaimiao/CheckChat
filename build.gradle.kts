@@ -33,6 +33,7 @@ dependencies {
     compileOnly("ink.ptms.core:v11701:11701:mapped")
     compileOnly("ink.ptms.core:v11701:11701:universal")
     compileOnly("public:papi:1.0.0")
+    taboo("com.xbaimiao:util:2.0.1")
     compileOnly(kotlin("stdlib"))
     compileOnly(fileTree("libs"))
 }

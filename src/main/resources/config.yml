@@ -19,4 +19,4 @@ checks:
     message: "输入欢迎领取女朋友"
     commands:
       - 'tell: 你输入了欢迎 获得1金币'
-      - 'command: money give %player_name% 1'
+      - 'command: money give %player_name% {$random:1-2}'
